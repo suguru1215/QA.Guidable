@@ -1,0 +1,51 @@
+.comments-title {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.comment-list{
+	padding: 0;
+	margin: 0;
+
+	> li {
+	    margin-bottom: 25px;
+
+	    article.comment{
+		    border-bottom: 2px solid #eee;
+		    margin-bottom: 20px;
+		    padding-bottom: 20px;
+	    }
+	}
+
+	.user-avatar{
+		margin-right: 20px;
+		img{
+			border-radius: 50%;
+		}
+	}
+	.comment-meta{
+		margin-bottom: 10px;
+		.fn{
+		    display: block;
+		    font-style: normal;
+		    font-weight: 600;
+		    margin-bottom: 4px;
+
+		    > span{
+		    	background: @color2;
+			    border-radius: 2px;
+			    color: #fff;
+			    font-size: 12px;
+			    font-weight: 400;
+			    margin-left: 5px;
+			    padding: 1px 6px;
+		    }
+		}
+		time{
+		    color: #aaa;
+		    font-size: 13px;
+		}
+	}
+	.children{
+		border-left: solid 2px #eee;
+	}
+}

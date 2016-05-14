@@ -1,0 +1,131 @@
+.profile{
+
+	&-field-table{
+		margin-left: 30px;
+	}
+	table{		
+		width: 100%;
+	}
+	td{
+		border-bottom: 1px solid #f8f8f8;
+	}
+	td{	    
+	    padding: 5px 0;
+	    vertical-align: top;
+	}
+	tr:last-child td{
+		border-bottom: none;
+	}
+	&-label{
+	    font-weight: 600;
+	    width: 150px;
+	    font-size: 13px;
+	    color:@color-light;
+	}
+	&-data{
+
+	}
+	
+	.bp-widget{
+		position: relative;
+		margin-bottom: 20px;
+	}
+	&-group-name{
+	    background: none repeat scroll 0 0 #fff;
+	    border: 1px solid #ddd;
+	    border-radius: 2px;
+	    display: table;
+	    font-size: 15px;
+	    font-weight: 600;
+	    margin-top: 20px;
+	    padding: 6px 15px;
+	    z-index: 9;
+
+	    &:after {
+		    background: none repeat scroll 0 0 #eee;
+		    content: "";
+		    display: block;
+		    height: 2px;
+		    left: 0;
+		    position: absolute;
+		    top: 15px;
+		    width: 100%;
+		    z-index: -1;
+		}
+	}
+	&-edit-nav{
+	    border-bottom: 2px solid #eee;
+	    list-style: outside none none;
+	    margin: 0 0 20px;
+	    padding: 0;
+	    >li{
+	    	float: left;
+	    	margin-right: 20px;
+	    }
+	    a{
+	    	color:@color1;
+		    display: block;
+		    font-size: 13px;
+		    font-weight: 600;
+		    padding: 7px 0;
+	    }
+	    .current a{
+	    	color: @text-color;
+	    }
+	}
+	&-edit-fields{
+
+	}
+	&-edit-group-ttile{
+	    color: #888;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.editfield{
+	    border-bottom: 1px solid #eee;
+	    padding: 10px;
+
+	    .description{
+		    color: @color-light;
+		    margin: 5px 0 0 0;
+		}
+		.radio >div, .checkbox >div{
+			label{
+			    padding: 0 0 0 22px;
+			    text-align: left;
+			}
+		}		
+	}
+	.submit {
+	    margin-top: 20px;
+	}
+
+}
+.field-visibility-settings-notoggle, .field-visibility-control {
+    font-size: 13px;
+    color: @color-light;
+    >a{
+    	color: @color-light;
+    	text-decoration: none;
+    	i{
+		    font-size: 12px;
+		    margin-left: 10px;
+    	}
+    }
+}
+#avatar-upload {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    display: table;
+    padding: 10px;
+    .btn-default{
+    	margin-right: 10px;
+    }
+    input[name="upload"] {
+	    margin-top: 3px;
+	}
+}
+#avatar-upload-form .btn.btn-delete-avatar{
+	border-color: red;
+}

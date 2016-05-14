@@ -1,0 +1,133 @@
+body{
+	color: @color1;
+	font-size: 14px;
+    font-family: @font-family;
+	line-height: 1.6;
+}
+
+a {
+    color: @text-color;
+    &:focus {
+        outline: none;
+    }
+    &:hover{
+        color: darken(@text-color, 10%);
+        text-decoration: none;
+    }
+}
+
+.no-overflow{
+	overflow: hidden;
+}
+
+label {
+    font-weight: 600;
+}
+input[type="text"], select, textarea, .form-control{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02) inset;
+    color: #888888;
+    font-weight: normal;
+    height: 34px;
+    padding: 5px 10px;
+    width: 100%;
+
+    &:focus{
+    	border-color: #ccc;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+    }
+}
+textarea{
+    height: auto;
+}
+.avatar {
+    border-radius: 2px;
+}
+
+.full-width .container{
+    margin: 0;
+}
+#wpadminbar {
+    bottom: 0;
+    opacity: 0;
+    top: auto;
+    &:hover{
+        opacity: 1;
+    }
+}
+body.activity {
+    margin-top: 0;
+}
+.btn{
+    border: none;
+}
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input {
+    bottom: 0;
+}
+.site-content .dropdown{    
+    padding: 0;
+
+    &.open .dropdown-toggle{
+        background: none repeat scroll 0 0 #fff;
+        border-color: #ddd #ddd #fff;
+        box-shadow: none;
+        margin-bottom: -1px;
+        position: relative;
+        z-index: 9999;
+    }
+
+    &-menu{
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        box-shadow: 0 5px 6px rgba(0, 0, 0, 0.176);
+        margin-top: -1px;
+        >li > a{
+            padding: 10px 14px;
+        }
+    }
+}
+.loading-sq{
+
+}
+.svg-animate-sq .sq{
+    animation-from:#333;
+    animation-to: #fff;
+}
+#item-buttons a, .notifications-actions a, .pagination-links > span, .pagination-links > a, #messages_search_submit, #messages-bulk-manage, #members_search_submit, #subnav ul > li.feed a{
+    background-color: #eee;
+    background-image: none;
+    border-color: transparent transparent rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 0 0 2px;
+    color: #777777;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 3px 8px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &:hover{
+        background:#f8f8f8;
+    }    
+}
+#messages-select {
+    width: auto;
+}
+.user-level-number {
+    background: @color-badge;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    padding: 0 5px;
+    position: absolute;
+    right: -3px;
+    top: 10px;
+}

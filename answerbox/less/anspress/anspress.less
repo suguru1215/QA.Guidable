@@ -1,0 +1,34 @@
+// Core variables and mixins
+@import "../bs/variables.less";
+@import "../variables.less";
+@import "../bs/mixins.less";
+
+@import "list.less";
+@import "question.less";
+@import "form.less";
+@import "widget.less";
+@import "categories.less";
+@import "reputation.less";
+
+#anspress{
+	line-height: 1.6;
+	font-size: 14px;
+	font-family: Helvetica,Arial,freesans,sans-serif;
+	color: @color1;	
+}
+#ap-user-menu-link {
+    border-color: transparent #ddd #ddd;
+    border-image: none;
+    border-right: 1px solid #ddd;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+body #ap-user-notification-anchor .counter {
+    background: none repeat scroll 0 0 #ff3737;
+    right: 3px;
+    top: 7px;
+}

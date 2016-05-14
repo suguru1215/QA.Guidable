@@ -1,0 +1,58 @@
+.welcome{
+    background: lighten(@color2, 2%);
+    margin-bottom: 25px;
+    margin-top: -30px;
+    padding: 25px 0;
+    text-align: center;
+
+    &-signup {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+        margin-bottom: -10px;
+        padding: 25px 0;
+        text-align: center;
+        p{
+            display: inline;
+            font-size: 21px;
+            margin: 0;
+        }
+    }
+    &-btn-sign{
+        background: rgba(0, 0, 0, 0);
+        border: 2px solid rgba(255, 255, 255, 0.86);
+        color: #fff;
+        float: right;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 15px;
+        margin-top: 9px;
+        padding: 7px 10px;
+        text-transform: uppercase;
+        &:hover{
+            background: #fff;
+            color: @color2;
+            border-color: @color3;
+        }
+        @media (max-width: 767px){
+            display: block;
+            float: none;
+            margin-left: 0;
+        }
+    }
+    .entry-title{            
+        color: #fff;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0;
+        padding: 15px 0;
+        span{
+            display: block;
+            font-size: 105px;
+            @media (max-width: 767px){
+                font-size: 30px;
+            }
+        }
+        @media (max-width: 767px){
+            font-size: 20px;
+        }
+    }
+}

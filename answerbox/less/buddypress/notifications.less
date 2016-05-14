@@ -1,0 +1,65 @@
+#notifications-sort-order label{
+	display: none;
+}
+.notifications{
+	width: 100%;
+	vertical-align: top;
+	td:first-child,th:first-child{
+		display: none;
+	}
+	td, th{
+	    border-bottom: 1px solid #f8f8f8;
+	    padding: 15px 10px;
+	}
+	th{
+		background: #F8F8F8;
+	}
+
+	&-desc a{
+		font-weight: 600;
+		color: @color1;
+	}
+	&-date, &-actions{
+		color: @color-light;
+	}
+	&-avatar{
+		margin-right: 10px;
+	}
+	&-actions, .actions{
+		text-align: right;
+	}
+	&-actions a{
+		color:@color-light;
+		border: 1px solid #ddd;
+	    border-radius: 2px;
+	    font-size: 12px;
+	    padding: 1px 6px;
+		i{
+			margin-right: 5px;
+		}
+	}
+	&-options-nav{
+		margin: 10px 0 20px;
+		label{
+			display: inline;
+		}
+		select{
+		    height: 28px;
+		    padding: 2px;
+		    width: auto;
+		}
+		.button{
+			padding: 2px 15px;
+			border-radius: 3px;
+			background: @color2;
+			color: #fff;
+			border: none;
+			&[disabled="disabled"]{
+			    background: #fff;
+			    border: 1px solid #eee;			    
+			    color: @color-light;			    
+			}
+		}
+	}
+
+}

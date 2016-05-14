@@ -1,0 +1,89 @@
+.user-cover{
+    background: none repeat scroll 0 0 #f8f8f8;
+    height: 130px;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    background-size: 420px auto;
+
+    &.big{
+	    height: 250px;
+	    margin: -30px 0 0;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    }
+    
+	img{
+	    position: absolute;
+	    width: 100%;
+	}
+	&.editing{
+		cursor: move;
+	}
+	&.no-cover{
+		.cover-reposition{
+			display: none;
+		}
+	}
+}
+
+.cover-upload{
+    left: 5px;
+    position: absolute;
+    top: 5px;
+
+	&-input{
+	    height: 100%;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    .opacity(0);
+	}
+
+	.btn{
+	    background: @color2;
+	    border: 1px solid rgba(255, 255, 255, 0.36);
+	    border-radius: 3px;
+	    box-shadow: 0 0 5px rgba(0, 0, 0, 0.42);
+	    color: rgba(255, 255, 255, 0.85);
+	    padding: 4px 8px;
+	    .opacity(0.8);
+	    &:hover{
+	    	.opacity(1);
+	    }
+	}
+}
+.cover-reposition {
+    left: 44px;
+    position: absolute;
+    top: 5px;
+
+    button{
+    	background: #fff;
+    	color: @color2;
+	    border: 1px solid rgba(255, 255, 255, 0.36);
+	    box-shadow: 0 0 5px rgba(0, 0, 0, 0.42);
+	    height: 30px;
+	    padding: 5px;
+	    width: 32px;
+	    .opacity(0.8);
+	    border-radius: 3px;
+
+	    &:hover{
+	    	.opacity(1);
+	    }
+    }
+    &-done, &-cancel{
+    	display: none;
+    }
+    &.active{
+
+    	.cover-reposition-drag{
+    		display: none;
+    	}
+    	.cover-reposition-done, .cover-reposition-cancel{
+    		display: inline;
+    	}
+    }
+}

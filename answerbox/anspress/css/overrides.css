@@ -1,0 +1,353 @@
+#anspress .ap-questions-count {
+  border: 2px solid #e0e0e0;
+}
+#anspress .ap-questions-acount {
+  background: none;
+  border: solid 2px #0eafe4;
+  color: #444444;
+}
+#anspress .ap-questions-acount > span {
+  color: #444444;
+}
+#anspress .ap-questions-title {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+#anspress .ap-questions-title a {
+  color: #444444;
+}
+#anspress .ap-display-question-meta {
+  font-size: 13px;
+}
+#anspress .ap-display-question-meta .question-categories a,
+#anspress .ap-display-question-meta .question-tags a {
+  margin-right: 8px;
+}
+#anspress .ap-display-question-meta .question-categories a:last-child,
+#anspress .ap-display-question-meta .question-tags a:last-child {
+  margin-right: 0;
+}
+#anspress .ap-questions-item {
+  padding: 20px 15px;
+}
+#anspress .ap-questions-item:nth-child(2n+1) {
+  background: none repeat scroll 0 0 #fcfcfc;
+}
+#anspress .ap-questions-item.hentry {
+  border-bottom: medium none;
+  border-top: 1px solid #f8f8f8;
+  margin: 0;
+}
+#anspress #ap-question-sorting {
+  float: left;
+}
+#anspress .ap-list-head {
+  margin-bottom: 25px;
+}
+#anspress .ap-display-meta-item {
+  margin-right: 10px;
+}
+#anspress .ap-display-meta-item:before {
+  display: none;
+}
+#anspress .ap-display-meta-item .ap-best-answer-label {
+  margin-right: 0;
+}
+.row .row {
+  margin: 0;
+}
+#anspress .type-answer,
+#anspress #ap-best-answer .type-answer {
+  margin-top: 35px;
+}
+#anspress #ap-answers-c .ap-sorting-tab {
+  margin-bottom: 20px;
+}
+#anspress #ap-answers-c .ap-answers-label {
+  font-size: 25px;
+  line-height: 100%;
+}
+#anspress #ap-answers-c .ap-answers-tab {
+  margin-top: 0;
+}
+#anspress .ap-questions-tab,
+#anspress .ap-answers-tab {
+  background: #F9F9F9;
+  border: none;
+}
+#anspress .ap-questions-tab > li a,
+#anspress .ap-answers-tab > li a {
+  font-size: 13px;
+  padding: 7px 18px;
+}
+#anspress .ap-questions-tab > li.active a,
+#anspress .ap-answers-tab > li.active a {
+  background: #33c3f2;
+  padding: 7px 18px;
+}
+#anspress .ap-question-meta {
+  margin-bottom: 35px;
+}
+.anspress-container .bootstrap-tagsinput {
+  border: 1px solid #ddd;
+}
+.anspress-container .ap-editor {
+  border: 1px solid #ddd;
+}
+.anspress-container .ap-editor .ap-editor .mce-edit-area {
+  background: none repeat scroll 0 0 #fcfcfc;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05) inset;
+  padding: 7px;
+}
+.anspress-container .ap-editor .mce-toolbar-grp {
+  border-bottom: medium none;
+}
+.anspress-container .ap-editor .insert-media {
+  background: none repeat scroll 0 0 #fff;
+  border-color: transparent transparent transparent #eee;
+  border-image: none;
+  border-radius: 0 3px 0 0;
+  border-style: none none none solid;
+  border-width: medium medium medium 1px;
+  box-shadow: none;
+  height: 34px;
+  margin: -3px;
+  padding: 4px 15px;
+}
+.anspress-container .ap-editor .insert-media:hover {
+  border-color: #eee;
+}
+.anspress-container .ap-form-control {
+  border-width: 1px;
+}
+.anspress-container .ap-form-control:focus {
+  border-color: #444444;
+}
+.anspress-container .ap-similar-questions-head h3 {
+  color: #0eafe4;
+}
+.anspress-container .ap-similar-questions {
+  border: 1px solid #ddd;
+  padding: 0;
+  box-shadow: none;
+}
+.anspress-container .ap-similar-questions a {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+.anspress-container .ap-similar-questions .ap-title {
+  display: block;
+  overflow: hidden;
+}
+.anspress-container .ap-similar-questions .acount {
+  margin-left: 10px;
+}
+.anspress-container .ap-question-right {
+  margin-top: 24px;
+}
+.anspress-container .ap-question-info {
+  border-left: 1px solid #eee;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+.anspress-container .ap-rq-widget .ap-rq-post {
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 10px 5px;
+}
+.anspress-container .ap-rq-widget .ap-rq-post span {
+  font-size: 13px;
+  margin-right: 10px;
+}
+.anspress-container .ap-question-item .ap-avatar {
+  margin-top: 5px;
+}
+.anspress-container .ap-question-item .ap-question-title {
+  color: #444444;
+}
+.anspress-container .ap-question-item span {
+  color: #888;
+}
+#ap-categories-widget.ap-cat-wid {
+  border: 1px solid #ebebeb;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+#ap-categories-widget.ap-cat-wid > li {
+  background: #FFF;
+  padding: 7px 10px;
+}
+#ap-categories-widget.ap-cat-wid > li a {
+  color: #444444;
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0;
+}
+#ap-categories-widget.ap-cat-wid > li .ap-cat-count {
+  color: #888;
+  font-size: 13px;
+}
+.anspress-container #ap-categories {
+  margin: 0 -15px;
+}
+.anspress-container .ap-term-category-box > li.qcat-box {
+  border: medium none;
+  float: left;
+  margin: 0;
+  padding: 15px;
+  width: 33.33%;
+}
+.anspress-container .ap-term-category-box > li.qcat-box .qcat-box-inner {
+  border: 1px solid #eee;
+  border-radius: 2px;
+  display: block;
+  height: 140px;
+  overflow: hidden;
+  padding: 12px;
+}
+.anspress-container .ap-term-category-box > li.qcat-box .ap-term-title {
+  color: #444444;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.anspress-container .ap-term-category-box > li.qcat-box .ap-taxo-description {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.anspress-container .ap-term-category-box > li.qcat-box .ap-term-count {
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: left;
+  width: auto;
+}
+.anspress-container .ap-taxo-detail {
+  background: rgba(0, 0, 0, 0);
+  padding: 0;
+}
+.anspress-container .ap-taxo-detail h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.anspress-container .ap-taxo-detail .ap-tax-item-count {
+  float: none;
+  margin-left: 10px;
+  padding: 2px 10px;
+  vertical-align: middle;
+  background: #0eafe4;
+}
+.anspress-container .ap-taxo-detail .ap-taxo-description {
+  font-size: 18px;
+  line-height: inherit;
+}
+.anspress-container .ap-sub-taxo > li {
+  float: none;
+  margin: 0;
+}
+.anspress-container .ap-sub-taxo > li > a {
+  border-color: transparent transparent #f8f8f8;
+  border-image: none;
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  padding: 10px 5px;
+}
+.anspress-container .ap-reputation-item {
+  border-top: 1px solid #f8f8f8;
+  padding: 15px 0;
+}
+.anspress-container .ap-reputation-point {
+  background: #70c5e7;
+  border-radius: 2px;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-top: -2px;
+  min-width: 25px;
+  padding: 2px 4px;
+  text-align: center;
+}
+.anspress-container .ap-reputation-point.lost {
+  background: #ff6c6c;
+}
+.anspress-container .ap-reputation-info {
+  display: block;
+  float: left;
+  max-width: 470px;
+  font-weight: 600;
+}
+.anspress-container .ap-reputation-time {
+  color: #888;
+  float: right;
+}
+.bp-reputation .peity {
+  background: #f7f7f7;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+.bp-reputation .peity rect {
+  fill: #63d1f5;
+}
+.bp-reputation .peity rect:hover {
+  fill: #33c3f2;
+}
+.bp-reputation-chart {
+  margin: 0 0 20px;
+}
+.bp-reputation .col-md-3,
+.bp-reputation .col-md-9 {
+  height: 110px;
+  overflow: hidden;
+  padding: 0;
+}
+.bp-reputation .circle-progress {
+  color: #fff;
+  margin: 4px auto 0;
+  width: 110px;
+}
+.bp-reputation .circle-progress path:first-child {
+  stroke: #33c3f2;
+}
+.bp-reputation .circle-progress path {
+  stroke: #fff;
+}
+.bp-reputation-count {
+  background: #0eafe4;
+}
+#anspress {
+  line-height: 1.6;
+  font-size: 14px;
+  font-family: Helvetica, Arial, freesans, sans-serif;
+  color: #444444;
+  padding: 10px 20px;
+}
+#ap-user-menu-link {
+  border-color: transparent #ddd #ddd;
+  border-image: none;
+  border-right: 1px solid #ddd;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+body #ap-user-notification-anchor .counter {
+  background: none repeat scroll 0 0 #ff3737;
+  right: 3px;
+  top: 7px;
+}
+
+/* 2016/04/09追加 */
+#anspress .ap-answers-tab {
+  display: none;
+}

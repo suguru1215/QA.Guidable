@@ -1,0 +1,42 @@
+.top-users{
+    border: 1px solid #ebebeb;
+    &-item{
+        border-bottom: 1px solid #f4f4f4;
+        padding: 10px;
+    }
+    &-avatar{
+        float:left;
+        margin-right: 15px;
+    }
+    &-name{
+        color: @color1;
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        span{
+            color: #777;
+            font-size: 13px;
+            font-weight: normal;
+            margin-left: 2px;
+            padding: 0 5px;
+        }
+    }
+    &-rep{
+        border-radius: 2px;
+        font-size: 12px;
+    }
+    .ap-btn-follow {
+        border: 2px solid @color2;
+        border-radius: 2px;
+        color:@color1;
+        float: right;
+        font-size: 11px;
+        margin-top: 5px;
+        text-align: center;
+        width: 58px;
+        &.active{
+            background: @color2;
+            color: #fff;
+        }
+    }
+}

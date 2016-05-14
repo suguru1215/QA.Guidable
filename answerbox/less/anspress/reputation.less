@@ -1,0 +1,73 @@
+.anspress-container{
+	.ap-reputation-item {
+	    border-top: 1px solid #f8f8f8;
+	    padding: 15px 0;
+	}
+	.ap-reputation-point{
+	    background: #70c5e7;
+	    border-radius: 2px;
+	    color: #fff;
+	    display: block;
+	    float: left;
+	    font-size: 13px;
+	    font-weight: 600;
+	    margin-right: 15px;
+	    margin-top: -2px;
+	    min-width: 25px;
+	    padding: 2px 4px;
+	    text-align: center;
+
+	    &.lost {
+		    background: #ff6c6c;
+		}
+	}
+	.ap-reputation-info {
+	    display: block;
+	    float: left;
+	    max-width: 470px;
+	    font-weight: 600;
+	}
+	.ap-reputation-time {
+	    color: #888;
+	    float: right;
+	}
+}
+.bp-reputation{
+	.peity{
+	    background: #f7f7f7;
+	    padding-bottom: 5px;
+	    padding-right: 5px;
+	    padding-top: 5px;
+		rect {
+		    fill: lighten(@color2, 20%);
+		    &:hover{
+		    	fill: lighten(@color2, 10%);
+		    }
+		}
+	}
+	&-chart{
+		margin: 0 0 20px;
+	}
+
+	.col-md-3, .col-md-9{
+	    height: 110px;
+	    overflow: hidden;
+	    padding: 0;
+	}
+	.circle-progress {
+		color:#fff;
+	    margin:4px auto 0;
+	    width: 110px;
+
+	    path:first-child{
+	    	stroke: lighten(@color2, 10%);
+	    }
+	    path{
+	    	stroke: #fff;
+	    }
+	}
+	&-count{
+		background: @color2;
+	}
+
+}

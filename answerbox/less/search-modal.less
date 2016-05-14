@@ -1,0 +1,106 @@
+#site-search{
+    display: none;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+    padding: 0 0 20px;
+}
+
+.main-search{
+    display: table;
+    margin: 0 auto;
+    #s{
+        height: 42px;
+        padding: 10px 15px;
+        width: 400px;
+    }
+    .btn{
+        font-weight: 600;
+        height: 42px;
+        padding: 10px 25px;
+    }
+
+    &-filter{
+        .checkbox{
+            display: block;
+            padding: 5px 15px;
+        }
+    }
+}
+.search-questions {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-top: 10px;
+
+    &-acount{
+        background: @color-light;
+        border-radius: 2px;
+        color: #fff;
+        display: block;
+        float: left;
+        font-weight: 600;
+        height: 25px;
+        line-height: 25px;
+        margin-right: 20px;
+        margin-top: -1px;
+        text-align: center;
+        width: 25px;
+
+        &.selected{
+            background: @color2;
+        }
+    }
+    &-item{
+        border-bottom: 1px solid #f7f7f7;
+        padding: 15px 20px;
+        &:nth-child(2n) {
+            background: none repeat scroll 0 0 #fcfcfc;
+        }
+    }
+    &-title{
+        color: lighten(@color1, 10%);
+        display: block;
+        float: left;
+        font-weight: 600;
+        max-width: 495px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    &-vcount{
+        background: none repeat scroll 0 0 #25c9ff;
+        border-radius: 2px;
+        color: #fff;
+        float: right;
+        font-size: 12px;
+        font-weight: 600;
+        min-width: 60px;
+        padding: 1px 8px;
+        text-align: center;
+    }
+}
+.search-tags{
+    margin: 0 auto;
+    max-width: 504px;
+    padding-top: 10px;
+    >span{
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    >a{
+        display: inline-block;
+        font-size: 13px;
+        padding: 1px 8px;
+    }
+}
+.ap-list-head #ap-search-form, .ap-list-head .ap-btn-ask{
+    display: none;
+}
+#anspress .ap-list-head .ap-questions-tab {
+    float: left;
+}
+#anspress .ap-list-head {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    padding: 0;
+}

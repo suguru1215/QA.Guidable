@@ -1,0 +1,220 @@
+.widget-title {
+    color: @color1;
+    font-size: 15px;
+    font-weight: 600;
+}
+.widget{
+	margin-bottom: 20px;
+	font-size: 13px;
+	> ul{
+		margin: 0;
+		list-style: none;
+		padding: 0;
+
+		> li {
+		    padding: 5px 10px;
+		}
+	}
+}
+.anspress-container{
+	.ap-widget-pos{
+		.ap-stats-widget li{
+		    border-bottom: 1px solid #f8f8f8;
+		    font-size: 15px;
+		    padding: 13px 15px;
+		    &:last-child{
+		    	border-bottom: none;
+		    }
+			.stat-label {
+			    display: inline-block;
+			    width: 115px;
+			}
+		    .stat-value{
+		    	color:#595959;
+		    	float:none;
+		    	font-weight: 400;
+		    }
+		}
+	}
+}
+
+.userwid-rep{
+	&-list {
+	    border-color: transparent #eee #eee;
+	    border-image: none;
+	    border-right: 1px solid #eee;
+	    border-style: none solid solid;
+	    border-width: medium 1px 1px;
+	}
+	&-card{
+		background: @color2;
+	    border-radius: 2px 2px 0 0;
+	    color: #fff;
+	    padding: 15px;
+	    position: relative;
+	}
+	&-count{
+	    font-size: 23px;
+	    font-weight: 300;
+	    position: relative;
+	    z-index: 9;
+		span {
+		    font-weight: 600;
+		}
+		.i-rep{
+		    float: left;
+		    font-size: 30px;
+		    margin-right: 15px;
+		    margin-top: 3px;
+		}
+	}
+	&-item{
+	    border-bottom: 1px solid #f7f7f7;
+	    font-size: 13px;
+	    padding: 10px;
+	}
+	&-time{
+	    color: @color-light;
+	    font-size: 12px;
+	    margin-left: 5px;
+	}
+	&-point {
+	    background: #70c5e7;
+	    border-radius: 2px;
+	    color: #fff;
+	    display: block;
+	    float: left;
+	    font-size: 11px;
+	    margin-right: 15px;
+	    margin-top: 4px;
+	    min-width: 23px;
+	    padding: 1px 4px;
+	    text-align: center;
+	    &.lost{
+	    	background: #FF6C6C;
+	    }
+	}
+	.peity {
+	    bottom: 0;
+	    left: 0;
+	    position: absolute;
+	    z-index: 0;
+
+	    rect{
+	    	fill:darken(@color2, 5%);
+	    }
+	}
+	.reputation-bar {
+	    display: none;
+	}
+
+	.circle-progress {
+	    margin: 0 auto;
+	    position: relative;
+	    z-index: 9;
+	    path{
+	    	stroke: #fff;
+	    }
+	    path:first-child{
+	    	stroke: lighten(@color2, 10%)
+	    }
+	}
+}
+
+.userwid-progress{
+    border: 1px solid #eee;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: center;
+
+	&-title {
+	    color: @color-light;
+	    font-size: 18px;
+	    font-weight: 300;
+	    margin-bottom: 10px;
+	}
+	&-svg{
+
+	}
+	.btn{
+	    color: @color-light;
+	    margin-top: 10px;
+	    padding: 5px 10px;
+	}
+	.progressbar-text {
+	    font-size: 30px;
+	    font-weight: 300;
+	    margin-top: -4px !important;
+	}
+}
+
+.userwid-levels{
+	border: 1px solid #eee;
+	border-radius: 2px;
+	.circle-progress{
+	    margin: 0 auto;
+	    max-width: 115px;
+	}
+	&-next{
+	    text-align: center;
+		span{
+			color: @color1;
+		    display: block;
+		    font-size: 16px;
+
+		    i{
+		    	background:@color-badge;
+			    border-radius: 2px;
+			    color: #fff;
+			    font-size: 13px;
+			    font-style: normal;
+			    font-weight: 600;
+			    padding: 0 6px;
+			    text-transform: uppercase;
+			    vertical-align: text-top;
+		    }
+		}
+	}
+	&-stats {
+	    background: none repeat scroll 0 0 #fbfbfb;
+	    border-radius: 2px 2px 0 0;
+	    padding: 15px;
+	}
+	.reputation-badge path:first-child {
+	    stroke: #fff;
+	}
+	.level-bar{
+		path:first-child{
+			stroke: #eee;
+		}
+		path{
+			stroke: @color-badge;
+		}
+	}
+}
+
+.avatar-block{
+	margin: -6px;
+	.item-avatar {
+	    display: inline-block;
+	    padding: 6px;
+	}
+}
+
+.site-stats{
+	border: 1px solid #ebebeb;
+	.stats-item{
+	    border-bottom: 1px solid #f2f2f2;
+	    color: #656565;
+	    font-size: 13px;
+	    font-weight: 600;
+	    padding: 10px 15px;
+	    i{
+		    color: #898989;
+		    display: inline-block;
+		    font-size: 14px;
+		    margin-right: 4px;
+		    width: 21px;
+	    }
+	}
+}
