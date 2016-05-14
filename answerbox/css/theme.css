@@ -572,7 +572,7 @@ body.activity {
   }
 }
 .ap-widget-inner {
-  padding: 20px;
+  /*padding: 20px;*/
   background: #FFF;
   -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
   box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
@@ -1511,4 +1511,11 @@ button.ap-btn.ap-btn-submit:hover {
 /*  2016/05/14追加分  */
 .tml .wp-social-login-widget {
     margin-bottom: 1.5em;
+}
+.widget.widget_ap_subscribe_widget .ap-widget-inner {
+    box-shadow: none;
+}
+
+#ap_users_widget-2 .ap-widget-inner {
+  padding: 20px;
 }
